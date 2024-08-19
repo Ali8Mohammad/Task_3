@@ -14,7 +14,7 @@ export const infoData = [
     },
     {
         id: 2 ,
-        href : '',
+        href : '#',
         icon : map,
         infoTitle : 'Sunny Isles Beach,FL33160'
     }
@@ -41,7 +41,7 @@ export const infoIcon = [
     },
     {
         id: 4 ,
-        href : '',
+        href : '#',
         socIcon: 'instagram',
         icon: Instagram
     }
