@@ -1,0 +1,97 @@
+.hero{
+    position: relative;
+    height: calc(100vh - 70px);
+
+}
+/* تأثير الكتابة مع ظهور تدريجي للنص */
+.typing {
+    display: inline;
+    overflow: hidden; /* يخفي النص الذي يتجاوز الحاوية */
+    border-right: 3px solid black; /* مؤشر الكتابة */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, fadeIn 3s ease-in;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+.hero-title
+{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}   
+.hero-p
+{
+    background-color: white;
+    padding: 10px 15px ;
+    width: max-content;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-p span
+{
+    color: #f35525;
+}
+.hero-h1
+{
+    color: white;
+    font-size: 58px;
+    font-weight: 800;
+    width: 320px;
+}
+@media(max-width:768px) and (min-width:567px)
+{
+    .hero-h1
+    {
+        font-size: 45px;
+        font-weight: 800;
+        width: 250px;
+    }
+    .hero-p
+    {
+        padding: 10px  ;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+@media (max-width:567px) and (min-width:300px)
+{
+    .hero-h1
+    {
+        font-size: 35px;
+        font-weight: 800;
+        width: 200px;
+    }
+    .hero-p
+    {
+        padding: 10px  ;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
