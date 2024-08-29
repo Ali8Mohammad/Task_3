@@ -78,7 +78,7 @@ export const cardData = [
     floor: '26th',
     parking: '3 cars'
   },
-  // إضافة العناصر الجديدة
+  
   {
     id: 7,
     img: property_3,

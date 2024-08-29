@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Layout from '../../components/Layout/Layout';
 import Properties from '../../components/Properties/Properties';
 import { cardData } from '../../data/propData';
-import FilterButtons from '../../components/FilterButtons/FilterButtons'; // استدعاء مكون الفلترة
+import FilterButtons from '../../components/FilterButtons/FilterButtons';
 import './PropertiesPage.css';
 import PageHero from '../../components/PageHero/PageHero';
 
