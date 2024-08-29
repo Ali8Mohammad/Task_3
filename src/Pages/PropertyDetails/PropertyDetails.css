@@ -1,0 +1,60 @@
+.detailsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    margin: 100px 0;
+}
+.apparmentinfosec {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.apparmentinfosec img {
+    width: 700px;
+    height: 400px;
+}
+.ServList {
+    width: 30%;
+}
+.secSectionDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* padding: 0 80px; */
+    width: 70%;
+    margin: 50px 0;
+}
+.blueText {
+    color: rgb(0, 132, 255);
+}
+.secSectionDetails .accordion {
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .apparmentinfosec img {
+        width: 500px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:992px){
+    .detailsSection {
+        padding: 0 40px;
+    }
+    .apparmentinfosec  {
+        width: 100%;
+    }
+    .apparmentinfosec img {
+        width: 100%;
+    }
+    .ServList  {
+        width: 100%;
+    }
+    .secSectionDetails {
+        width: 100%;
+    }
+ }

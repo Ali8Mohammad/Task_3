@@ -3,11 +3,11 @@
     height: calc(100vh - 70px);
 
 }
-/* تأثير الكتابة مع ظهور تدريجي للنص */
+
 .typing {
     display: inline;
-    overflow: hidden; /* يخفي النص الذي يتجاوز الحاوية */
-    border-right: 3px solid black; /* مؤشر الكتابة */
+    overflow: hidden; 
+    border-right: 3px solid black; 
     animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, fadeIn 3s ease-in;
   }
   

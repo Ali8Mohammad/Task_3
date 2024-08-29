@@ -1,0 +1,30 @@
+.PageHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../assets/Images/page-heading-bg.jpg);
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+.titlePar {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.heroPageTitle {
+    font-size: 60px;
+    margin: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    .heroPageTitle {
+        font-size: 40px;
+    }
+    .titlePar {
+        padding: 5px 10px;
+    }
+}

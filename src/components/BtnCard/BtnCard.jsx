@@ -1,9 +1,12 @@
-import './BtnCard.css'
+import { Link } from 'react-router-dom';
+import './BtnCard.css';
 
-export default function BtnCard({text}) {
+export default function BtnCard({ text, id }) {
   return (
-    <button className='btnCard'>
-      {text}
-    </button>
-  )
+    <Link to={'/Task_2/propertydetails'}>
+      <button className='btnCard'>
+        {text}
+      </button>
+    </Link>
+  );
 }

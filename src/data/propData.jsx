@@ -77,5 +77,42 @@ export const cardData = [
     Area: '165m2',
     floor: '26th',
     parking: '3 cars'
+  },
+  // إضافة العناصر الجديدة
+  {
+    id: 7,
+    img: property_3,
+    type: 'Appartment',
+    price: '$980.000',
+    title: '14 Mid Street Miami, OR 36450',
+    Bed: '8',
+    Bath: '8',
+    Area: '550m2',
+    floor: '3',
+    parking: '12 spots'
+  },
+  {
+    id: 8,
+    img: property_2,
+    type: 'Appartment',
+    price: '$1.520.000',
+    title: '26 Old Street Miami, OR 12870',
+    Bed: '12',
+    Bath: '15',
+    Area: '380m2',
+    floor: '3',
+    parking: '14 Spots'
+  },
+  {
+    id: 9,
+    img: property_1,
+    type: 'Apartment',
+    price: '$3.145.000',
+    title: '34 Street Miami, OR 24650',
+    Bed: '10',
+    Bath: '12',
+    Area: '860m2',
+    floor: '3',
+    parking: '10 Spots'
   }
 ];

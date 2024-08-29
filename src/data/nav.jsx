@@ -2,22 +2,22 @@ export const navData =
 [
     {
         id:1,
-        link: '#home',
+        link: '/Task_2/',
         title: 'Home',
     },
     {
         id:2,
-        link: '#properties',
+        link: '/Task_2/properties',
         title: 'Properties',
     },
     {
         id:3,
-        link: '#property-details',
+        link: '/Task_2/propertydetails',
         title: 'Property Details',
     },
     {
         id:4,
-        link: '#contact',
+        link: '/Task_2/Contact',
         title: 'Contact Us',
     },
     
